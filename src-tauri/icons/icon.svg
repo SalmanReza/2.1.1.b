@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="ptBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14262a"/><stop offset="1" stop-color="#070c0d"/></linearGradient>
+    <linearGradient id="ptGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4dea2"/><stop offset="1" stop-color="#c49a4d"/></linearGradient>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="112" fill="url(#ptBg)"/>
+  <!-- throne and suspension ring of the astrolabe -->
+  <path d="M226 96c0-17 13-30 30-30s30 13 30 30" fill="none" stroke="url(#ptGold)" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="256" cy="48" r="19" fill="none" stroke="url(#ptGold)" stroke-width="12"/>
+  <!-- limb with degree ticks -->
+  <circle cx="256" cy="288" r="188" fill="none" stroke="url(#ptGold)" stroke-width="14"/>
+  <path d="M256.0 114.0L256.0 132.0M301.0 119.9L296.4 137.3M343.0 137.3L334.0 152.9M379.0 165.0L366.3 177.7M406.7 201.0L391.1 210.0M424.1 243.0L406.7 247.6M430.0 288.0L412.0 288.0M424.1 333.0L406.7 328.4M406.7 375.0L391.1 366.0M379.0 411.0L366.3 398.3M343.0 438.7L334.0 423.1M301.0 456.1L296.4 438.7M256.0 462.0L256.0 444.0M211.0 456.1L215.6 438.7M169.0 438.7L178.0 423.1M133.0 411.0L145.7 398.3M105.3 375.0L120.9 366.0M87.9 333.0L105.3 328.4M82.0 288.0L100.0 288.0M87.9 243.0L105.3 247.6M105.3 201.0L120.9 210.0M133.0 165.0L145.7 177.7M169.0 137.3L178.0 152.9M211.0 119.9L215.6 137.3" fill="none" stroke="#e7c98a" stroke-linecap="round" stroke-width="5" opacity=".9"/>
+  <!-- rete: almucantar rings and ecliptic -->
+  <g fill="none" stroke="#9fb6c4" stroke-width="3.5" opacity=".55">
+    <circle cx="256" cy="288" r="140"/>
+    <circle cx="256" cy="318" r="96"/>
+    <path d="M256 148v280M116 288h280"/>
+  </g>
+  <circle cx="256" cy="262" r="150" fill="none" stroke="#e7c98a" stroke-width="4" opacity=".6" stroke-dasharray="2 12" stroke-linecap="round"/>
+  <!-- mihrab niche (prayer) -->
+  <path d="M188 424V318c0-44 28-82 68-124c40 42 68 80 68 124v106Z" fill="#0a1214" stroke="#f3efe2" stroke-width="13" stroke-linejoin="round"/>
+  <!-- crescent and star inside the niche -->
+  <path d="M272 318a36 36 0 1 1-24-62a28 28 0 1 0 24 62Z" fill="url(#ptGold)" transform="translate(256 322) scale(1.18) translate(-256 -300)"/>
+  <path d="M282 296l5 11 12 1-9 8 3 12-11-6-11 6 3-12-9-8 12-1z" fill="#f4dea2" transform="translate(256 322) scale(1.18) translate(-256 -300) translate(-2 -2) scale(.9) translate(26 32)"/>
+  <!-- base line -->
+  <path d="M160 424h192" stroke="#f3efe2" stroke-width="13" stroke-linecap="round"/>
+</svg>
